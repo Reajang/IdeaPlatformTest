@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) throws IOException, ParseException {
-        String file = args.length != 0 ? args[0] : "D:/test.json";
+        String file = args.length != 0 ? args[0] : "/tickets.json";
         String res = fight(jsonReader(file), "Владивосток", "Тель-Авив", 90.00);
         //Вывод ответа в консоль
         System.out.println(res);
